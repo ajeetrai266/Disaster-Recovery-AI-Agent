@@ -10,5 +10,5 @@ DR_INSTRUCTION = """
     - dr_execution
 
     If somebody ask about **Get Corpus Info, **List Corpora** then go with "dr_plan" sub agent.
-    If prompt is about Google Cloud Platform (GCP) services then go with "dr_execution" sub agent.
+    If prompt is about Google Cloud Platform (GCP) services like - GCS, K8s then go with "dr_execution" sub agent.
     """

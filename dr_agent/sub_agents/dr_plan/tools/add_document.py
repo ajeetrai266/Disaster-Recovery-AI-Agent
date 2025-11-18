@@ -8,7 +8,7 @@ from typing import List
 from google.adk.tools.tool_context import ToolContext
 from vertexai import rag
 
-from ....config import (
+from config import (
     DEFAULT_CHUNK_OVERLAP,
     DEFAULT_CHUNK_SIZE,
     DEFAULT_EMBEDDING_REQUESTS_PER_MIN,

@@ -1,10 +1,3 @@
-"""
-Configuration settings for the RAG Agent.
-
-These settings are used by the various RAG tools.
-Vertex AI initialization is performed in the package's __init__.py
-"""
-
 import os
 
 from dotenv import load_dotenv
@@ -16,6 +9,7 @@ load_dotenv()
 # Vertex AI settings
 PROJECT_ID = os.environ.get("GOOGLE_CLOUD_PROJECT")
 LOCATION = os.environ.get("GOOGLE_CLOUD_LOCATION")
+SESSION_DB_URL = os.environ.get("SESSION_DB_URL")
 
 # RAG settings
 DEFAULT_CHUNK_SIZE = 512

@@ -21,5 +21,5 @@ dr_plan = Agent(
         add_data,
         delete_document,
         rag_query,
-    ]
+    ],
 )
